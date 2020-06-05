@@ -1,8 +1,8 @@
-#JWPlayer
+# JWPlayer
 
 ```shell script
 docker build -t jwplayer .
-docker run --name jwplayer --restart=always -p 80:80 -e DOMAIN={DOMAIN} jwplayer
+docker run -d --name jwplayer --restart=always -p 80:80 -e DOMAIN={DOMAIN} jwplayer
 ```
 
 ```html
